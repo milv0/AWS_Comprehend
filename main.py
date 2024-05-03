@@ -1,4 +1,4 @@
-# import boto3
+import boto3
 
 def comprehend_sentiment(text):
     # AWS CLI에서 구성된 자격 증명을 사용하여 Comprehend 클라이언트 생성
